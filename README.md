@@ -1,7 +1,7 @@
 # Scrum Maromba
 
 <p align="center">
-  <img src="./Prototipação/logo-scrum-maromba.png" alt="Logo Scrum Maromba" width="280">
+  <img src="./assets/logo-scrum-maromba.png" alt="Logo Scrum Maromba" width="280">
 </p>
 
 ## Identificação
