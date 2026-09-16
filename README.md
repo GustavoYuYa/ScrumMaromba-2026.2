@@ -51,8 +51,9 @@ A proposta do projeto considera uma aplicação web com interface para interaç�
 
 ```text
 ScrumMaromba-2026.2/
-├── Prototipação/
+├── assets/
 │   └── logo-scrum-maromba.png
+├── Prototipação/
 ├── Requisitos de Usuário/
 ├── Requisitos de Sistema/
 └── README.md
