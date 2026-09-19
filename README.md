@@ -38,7 +38,8 @@ A proposta do projeto considera uma aplicação web com interface para interaç�
 - apresentar exercícios compatíveis com as informações fornecidas;
 - permitir autenticação de usuário;
 - possibilitar a visualização dos exercícios sugeridos;
-- registrar a realização de exercícios.
+- registrar a realização de exercícios;
+- consultar o histórico de exercícios realizados.
 
 ## Documentos do Repositório
 
