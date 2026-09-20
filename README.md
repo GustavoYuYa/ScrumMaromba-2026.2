@@ -33,11 +33,11 @@ O sistema é destinado a pessoas que desejam praticar exercícios físicos e bus
 
 A proposta do projeto considera uma aplicação web com interface para interação do usuário. De forma geral, o sistema deverá permitir:
 
-- informar regiões do corpo em que o usuário deseja focar;
-- informar limitações ou problemas físicos relevantes;
+- autenticar o usuário;
+- informar a região muscular em que o usuário deseja focar;
+- informar limitações ou restrições físicas relevantes;
 - apresentar exercícios compatíveis com as informações fornecidas;
-- permitir autenticação de usuário;
-- possibilitar a visualização dos exercícios sugeridos;
+- possibilitar a visualização dos exercícios sugeridos e de suas informações;
 - registrar a realização de exercícios;
 - consultar o histórico de exercícios realizados.
 
