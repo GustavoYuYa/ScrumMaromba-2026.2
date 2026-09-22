@@ -41,6 +41,12 @@ A proposta do projeto considera uma aplicação web com interface para interaç�
 - registrar a realização de exercícios;
 - consultar o histórico de exercícios realizados.
 
+## Fluxo de Trabalho
+
+As atividades do projeto são acompanhadas pelo GitHub Project nas etapas **Backlog**, **Em andamento**, **In Review** e **Done**.
+
+As entregas movidas para **In Review** permanecem disponíveis para revisão da equipe por **48 horas**. Caso não haja solicitações de alteração nesse período, a entrega será considerada aprovada e a Issue poderá ser encerrada.
+
 ## Documentos do Repositório
 
 - Prototipação
@@ -48,7 +54,7 @@ A proposta do projeto considera uma aplicação web com interface para interaç�
 - Requisitos de Sistema
 - Projeto `.astah` com os diagramas do projeto
 
-## Organização Inicial do Repositório
+## Organização do Repositório
 
 ```text
 ScrumMaromba-2026.2/
