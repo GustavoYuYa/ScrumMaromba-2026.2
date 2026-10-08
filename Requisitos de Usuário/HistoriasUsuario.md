@@ -19,20 +19,23 @@ RF01, RF07, RF08, RNF04
 
 ---
 
-## US02 — Definição dos critérios de exercício
+## US02 — Seleção da região muscular
 
 **História de usuário:**  
-Como usuário, quero informar a região muscular que desejo exercitar e minhas restrições físicas, para receber exercícios compatíveis com minhas necessidades.
+Como usuário, eu quero selecionar a região muscular que desejo exercitar, para receber exercícios direcionados à região escolhida.
 
 **Critérios de aceitação:**
+
+- O usuário deve conseguir visualizar as regiões musculares disponíveis.
 - O usuário deve conseguir selecionar uma região muscular.
-- O usuário deve conseguir informar suas restrições físicas.
-- Os critérios informados devem ser considerados na recomendação.
+- O sistema deve registrar a região muscular selecionada.
+- O usuário deve conseguir alterar a região muscular selecionada antes de prosseguir.
+- A região muscular selecionada deve ser utilizada nas recomendações de exercícios.
 
 **Prioridade:** Alta
 
 **Requisitos relacionados:**  
-RF02, RF03, RF04, RNF01
+RF02
 
 ---
 
@@ -74,12 +77,14 @@ RF05, RF06
 ## US05 — Registro de exercício realizado
 
 **História de usuário:**  
-Como usuário autenticado, quero registrar um exercício como realizado, para acompanhar minhas atividades.
+Como usuário, eu quero registrar um exercício como realizado para acompanhar minhas atividades físicas.
 
 **Critérios de aceitação:**
-- Apenas usuários autenticados devem poder registrar exercícios.
-- O usuário deve conseguir confirmar o registro.
-- O exercício registrado deve ser incluído no histórico.
+
+- O usuário deve conseguir registrar um exercício como realizado.
+- O usuário deve conseguir confirmar o registro do exercício.
+- Após a confirmação, o exercício deve constar no histórico do usuário que realizou o registro.
+- Usuários não autenticados não devem conseguir registrar exercícios.
 
 **Prioridade:** Alta
 
@@ -93,12 +98,14 @@ RF01, RF07, RF08, RNF04
 ## US06 — Consulta ao histórico
 
 **História de usuário:**  
-Como usuário autenticado, quero consultar meu histórico de exercícios, para acompanhar as atividades realizadas.
+Como usuário, eu quero consultar meu histórico de exercícios para acompanhar as atividades que registrei como realizadas.
 
 **Critérios de aceitação:**
-- Apenas usuários autenticados devem poder consultar o histórico.
-- O histórico deve apresentar os exercícios registrados pelo usuário.
+
+- O usuário deve conseguir acessar seu histórico.
+- O histórico deve apresentar os exercícios registrados como realizados pelo usuário.
 - O usuário deve visualizar somente seus próprios registros.
+- Usuários não autenticados não devem conseguir consultar o histórico.
 
 **Prioridade:** Média
 
@@ -106,3 +113,22 @@ Como usuário autenticado, quero consultar meu histórico de exercícios, para a
 RF01, RF07, RF08, RNF04, RNF05
 
 **Estimativa:**
+
+---
+
+## US07 — Informar restrições físicas
+
+**História de usuário:**  
+Como usuário, eu quero informar minhas restrições físicas, para receber exercícios compatíveis com minhas limitações.
+
+**Critérios de aceitação:**
+
+- O usuário deve conseguir informar suas restrições físicas.
+- O usuário deve conseguir informar mais de uma restrição, quando necessário.
+- O usuário deve conseguir alterar ou remover uma restrição informada.
+- As restrições informadas devem ser consideradas nas recomendações de exercícios.
+
+**Prioridade:** Alta
+
+**Requisitos relacionados:**  
+RF03
