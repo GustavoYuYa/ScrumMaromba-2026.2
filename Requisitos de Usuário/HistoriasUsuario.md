@@ -15,7 +15,7 @@ Como usuário, quero me autenticar no sistema, para acessar meus registros de ex
 **Requisitos relacionados:**  
 RF01, RF07, RF08, RNF04
 
-**Estimativa:**
+**Estimativa: 3**
 
 ---
 
@@ -37,6 +37,8 @@ Como usuário, eu quero selecionar a região muscular que desejo exercitar, para
 **Requisitos relacionados:**  
 RF02
 
+**Estimativa: 5**
+
 ---
 
 ## US03 — Recomendação de exercícios
@@ -54,7 +56,7 @@ Como usuário, quero visualizar exercícios compatíveis com os critérios infor
 **Requisitos relacionados:**  
 RF04, RF05, RF06, RNF05
 
-**Estimativa:** 
+**Estimativa: 5** 
 
 ---
 
@@ -71,6 +73,8 @@ Como usuário, quero visualizar os detalhes de um exercício, para obter informa
 
 **Requisitos relacionados:**  
 RF05, RF06
+
+**Estimativa: 2** 
 
 ---
 
@@ -91,7 +95,7 @@ Como usuário, eu quero registrar um exercício como realizado para acompanhar m
 **Requisitos relacionados:**  
 RF01, RF07, RF08, RNF04
 
-**Estimativa:**
+**Estimativa: 5**
 
 ---
 
@@ -112,7 +116,7 @@ Como usuário, eu quero consultar meu histórico de exercícios para acompanhar 
 **Requisitos relacionados:**  
 RF01, RF07, RF08, RNF04, RNF05
 
-**Estimativa:**
+**Estimativa: 5**
 
 ---
 
@@ -132,3 +136,6 @@ Como usuário, eu quero informar minhas restrições físicas, para receber exer
 
 **Requisitos relacionados:**  
 RF03
+
+
+**Estimativa: 8**
